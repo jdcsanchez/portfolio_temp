@@ -21,6 +21,8 @@ body, html {
     background-size: cover;
 
     position: relative;
+
+    background-attachment: fixed;
 }
 
 #opacity-layer{
@@ -68,15 +70,34 @@ body, html {
     margin-bottom: 2%;
 }
 
-.icon{
-    height: 50px;
-    width: 50px;
+@media (min-width: 120px) { 
+    .icon{
+        height: 30px;
+        width: 30px;
+    }
+
+    .icon-container{
+        height: 30px;
+        width: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6%;
+    }
 }
 
-.icon-container{
-    height: 50px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 6%;
+@media (min-width: 600px) {
+    .icon{
+        height: 50px;
+        width: 50px;
+    }
+
+    .icon-container{
+        height: 50px;
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6%;
+    }
 }
+
+
