@@ -1,0 +1,96 @@
+/*Main body stuff*/
+
+*{
+    font-family: "Vollkorn";
+}
+
+body, html {
+    height: 100%;
+}
+
+#bg-main {
+    /* The image used */
+    background-image: url("../img/bg.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+#opacity-layer{
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+/*Content*/
+
+#content-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#secondary-container{
+    position: relative;
+    width: 100%;
+    margin-top: 14%;
+}
+
+#under-construction-text{
+    font-size: 10vh;
+    font-weight: bolder;
+    color: #ECECEC;
+}
+
+#description-text{
+    font-size: 3vh;
+    font-weight: bolder;
+    color: #FFF;
+}
+
+/*Icons*/
+
+#icons{
+    margin-top: 12%;
+}
+
+.icon-container{
+    margin-bottom: 2%;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fb-icon{
+    background-image: url("../img/fb.png");
+}
+
+#li-icon{
+    background-image: url("../img/linkedin.png");
+}
+
+#gh-icon{
+    background-image: url("../img/github.png");
+}
+
+#em-icon{
+    background-image: url("../img/email.png");
+}
