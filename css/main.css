@@ -71,26 +71,12 @@ body, html {
 .icon{
     height: 50px;
     width: 50px;
+}
+
+.icon-container{
+    height: 50px;
+    width: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 6%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#fb-icon{
-    background-image: url("../img/fb.png");
-}
-
-#li-icon{
-    background-image: url("../img/linkedin.png");
-}
-
-#gh-icon{
-    background-image: url("../img/github.png");
-}
-
-#em-icon{
-    background-image: url("../img/email.png");
 }

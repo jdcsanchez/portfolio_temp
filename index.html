@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animation.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
     <body>
@@ -22,33 +23,33 @@
                 <div id="secondary-container">
                     <div class="row">
                         <div class="col-sm-12 text-center">
-                            <span id="under-construction-text">Coming Soon</span>
+                            <span id="under-construction-text" class="fade-in one">Coming Soon</span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 text-center">
-                            <span id="description-text">I'm still working on my portfolio. In the meantime, feel free to contact me!</span>
+                            <span id="description-text" class="fade-in two">I'm still working on my portfolio. In the meantime, feel free to contact me!</span>
                         </div>
                     </div>
-                    <div class="row" id="icons">
+                    <div class="row fade-in three" id="icons">
                         <div class="col-sm-2"></div>
                         <div class="col-sm-2">
-                            <div class="icon" id="fb-icon"></div>
+                            <div class="icon-container"><a href="https://www.facebook.com/jdiego82" target="_blank"><img src="img/fb.png" class="icon" /></a></div>
                         </div>
                         <div class="col-sm-2">
-                            <div class="icon" id="li-icon"></div>
+                            <div class="icon-container"><a href="https://www.linkedin.com/in/jdsanchez82/" target="_blank"><img src="img/linkedin.png" class="icon" /></a></div>
                         </div>
                         <div class="col-sm-2">
-                            <div class="icon" id="gh-icon"></div>
+                            <div class="icon-container"><a href="https://github.com/jdiego82" target="_blank"><img src="img/github.png" class="icon" /></a></div>
                         </div>
                         <div class="col-sm-2">
-                            <div class="icon" id="em-icon"></div>
+                            <div class="icon-container"><a href="mailto:contact@jdsanchez.me?Subject=Hello" target="_blank"><img src="img/email.png" class="icon" /></a></div>
                         </div>
                         <div class="col-sm-2"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
     </body>
 </html>
